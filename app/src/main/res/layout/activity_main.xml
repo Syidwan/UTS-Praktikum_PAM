@@ -48,10 +48,12 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="login"
         android:layout_gravity="center_horizontal"
         android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"/>
+        android:backgroundTint="@color/green"
+        android:layout_marginBottom="16dp"
+        android:paddingHorizontal="16dp" />
 
     <!-- Register Link -->
     <TextView
